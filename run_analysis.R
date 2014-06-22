@@ -16,6 +16,8 @@ test561 <- read.table("UCI HAR Dataset/test/X_test.txt")
 subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt")
 names(subject_test) <- "subject"
 actCodes_test <- read.table("UCI HAR Dataset/test/y_test.txt")
+
+# transform the codes into the actual names of the variables found in object actLabels
 actLabels_test<-actLabels[actCodes_test[,1],2]
 
 # Extract mean and standard deviation of each variable
@@ -43,6 +45,8 @@ train561 <- read.table("UCI HAR Dataset/train/X_train.txt")
 subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt")
 names(subject_train) <- "subject"
 actCodes_train <- read.table("UCI HAR Dataset/train//y_train.txt")
+
+# transform the codes into the actual names of the variables found in object actLabels
 actLabels_train<-actLabels[actCodes_train[,1],2]
 
 #extract them from the original variable list
