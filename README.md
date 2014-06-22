@@ -32,7 +32,7 @@ The object _mergeData_ is transformed using the _melt()_ function from the _resh
 
 * Writing the file to disk
 
-Finally, the _tidyData_ object is written to the file *SmartPhoneData_mean_of_vars_by_act_subject.txt* to the R working directoru.
+Finally, the _tidyData_ object is written to the file *SmartPhoneData_mean_of_vars_by_act_subject.txt* to the R working directory.
 
 
 
